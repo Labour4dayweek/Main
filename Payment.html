@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html <html lang="en-UK">
+<head>
+
+
+<style>
+img {
+    display: block;
+    float:right;
+
+ 
+    padding-left:4%;
+    padding-bottom:4%;
+    width: 40%;
+    max-width:700px;
+   
+}
+</style>
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Patrick Bettington</title>
+<meta charset="UTF-8">
+
+</head>
+<body>
+
+
+<form action="your-server-side-code" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_a6zTatV5aRmt4v5SgT3F2OnO"
+    data-amount="999"
+    data-name="Learn or Lose"
+    data-description="Example charge"
+    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+    data-locale="auto"
+    data-currency="gbp">
+  </script>
+</form>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<table>
+<tr><td><input type="hidden" name="on0" value="Username">Username</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+</table>
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+</body>

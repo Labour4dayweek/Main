@@ -1,0 +1,217 @@
+html, body {
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+head {
+  
+    width:100%;
+   
+}
+body{
+
+  background-size: cover;
+
+}
+
+
+h1{
+font-size:60px;
+color:#c70927;
+font-family: 'Gothic A1', sans-serif;
+text-align:left;
+margin-left:8%;
+}
+
+h2{
+font-size:200%;
+color:#d7939b;
+font-family: 'Gothic A1', sans-serif;
+text-align:left;
+padding-left: 40px;
+}
+
+p {
+font-size:150%;
+color:#4C6268;
+font-family: 'Gothic A1', sans-serif;
+text-align:center;
+
+
+}
+
+p.big{
+font-size:100%;
+color:#4C6268;
+font-family: 'Gothic A1', sans-serif;
+text-align:left;
+padding-left: 40px;
+}
+
+ul {
+font-size:50%;
+color:#4C6268;
+font-family: 'EB Garamond', serif;
+text-align:left;
+padding-left:15%;
+}
+
+blockquote {
+display: block;
+font-family: 'EB Garamond', serif;
+color:#77AD78;
+}
+
+q {
+font-family: 'EB Garamond', serif;
+color:#F2AA3E;
+}
+
+#right {
+    float: left;
+    width: auto;
+    min-width:10%;
+}
+
+#parent {
+    display:table-cell;
+    vertical-align:middle;
+    background:#ffffff;
+}
+#child {
+    height:50%;
+    width:50%;
+    background:white;
+    margin:0px auto;
+}
+
+#content {
+
+height:50%;
+    width:50%;
+    background:white;
+    margin:0px auto;
+
+    min-width: 300px;
+    max-width:1500px;
+   
+    
+    }
+    #contentimg {
+
+
+    background:white;
+    margin:0px auto;
+
+    min-width: 300px;
+    max-width:850px;
+   
+    
+    }
+    
+    #contentvid {
+
+width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+
+    /* position: absolute; /* positions out of the flow, but according to the nearest parent */
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */ 
+    
+    }
+    
+    #SocialMedia {
+item-align:center;
+ 
+    margin:0px auto;
+
+ 
+   
+    
+    }
+
+
+/*COLOURS*/
+/* light red */
+a:link, .icon, a:visited  {
+   fill: #d7939b;
+   color: #d7939b;
+ }
+ /* dark red*/  
+
+h1, a:hover, .icon:hover {
+color:#c70927;
+fill: #c70927;
+}
+
+/* White*/
+
+.iconinside, body, .navbar, .quote {
+   fill: #ffffff;
+   background-color:#ffffff;
+  
+}
+
+
+a:link {
+    'color: #d7939b; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+  
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+   
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #d7939b;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#logo {
+padding-left: 50%;
+padding-right: 50%;
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    
+    position: fixed; /* Set the navbar to fixed position */
+    text-align:center; 
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding-bottom:20px;
+}
+
+.quote {
+    overflow: hidden;
+  
+    position: fixed; /* Set the navbar to fixed position */
+    top: 200px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding-bottom:20px;
+}
+
+
+
+/* Main content Open page*/
+.main {
+    margin-top: 60px; /* Add a top margin to avoid content overlay */
+}
+
+/* Prose on individual pages */
+.prose {
+    margin-top: 450px; /* Add a top margin to avoid content overlay */
+    
+}
+
