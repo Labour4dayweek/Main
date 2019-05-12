@@ -108,6 +108,18 @@ height:50%;
    
     
     }
+
+  #contentimgsmall {
+
+
+    background:white;
+    margin:0px auto;
+
+    min-width: 300px;
+    max-width:30px;
+   
+    
+    }
     
     #contentvid {
 
